@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f2f2;
+  margin: 30px;
+}
+
+.fix {
+  color: darkslategray;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  justify-content: center;
+  z-index: 1000;
+  display: flex;
+  margin-top: 18px;
+  border-bottom: 2px solid darkgrey;
+}
+
+.head {
+  display: flex;
+  margin-bottom: 18px;
+  width: 100%;
+  align-items: center;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.fi a {
+  color: darkslategray;
+  text-decoration: none;
+  right: 0px;
+  padding: 15px;
+  position: relative;
+  left: 20px;
+}
+
+.head .fi span a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.icons {
+  
+}
+
+.head .icons a {
+  color: darkslategray;
+  padding: 15px;
+  font-size: larger;
+}
+
+.icons a:hover {
+  color: rgb(0, 0, 0);
+}
+.sec {
+  text-align: center;
+  width: 42%;
+}
+.sec .title {
+  font-weight: bold;
+  color: darkslategray;
+  font-size: larger;
+}
+
+.two {
+  color: rgb(189, 172, 172);
+  font-size: x-large;
+}
+
+.fix .head .l a {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.left {
+  margin-top: 80px;
+  width: 30%;
+  float: left;
+}
+
+.s {
+  padding: 10px;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.service i {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.desc {
+  margin-top: 5px;
+  color: #909090;
+  text-align: left;
+}
+
+.services {
+  flex-direction: column;
+}
+
+.middle {
+  margin-top: 80px;
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+
+.right {
+  margin-top: 80px;
+  width: 30%;
+  float: right;
+  text-align: left;
+}
+
+.s {
+  font-size: x-large;
+  position: relative;
+  font-weight: bold;
+}
+
+.hire-me-button {
+  background-color: darkslategray;
+  width: 160px;
+  height: 60px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.hire-me-button span {
+  color: wheat;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.small-paragraph {
+  color: #909090;
+
+}
+
+.experience {
+  text-align: left;
+}
+.years, .clients{
+  display: inline-block;
+  margin-right: 30px;
+}
+.me {
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+  top: 465;
+  left: 688;
+  display: flex;
+  max-width: 100%;
+  right: ;
+}
+.p1{
+  color: #909090;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.p2{
+  color: #909090;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
